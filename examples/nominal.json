@@ -1,0 +1,9 @@
+{
+  "calibration": [{"span_px":102,"width_mm":10},{"span_px":202,"width_mm":20}],
+  "check":{"span_px":152.1,"width_mm":15},
+  "check_residual_limit_mm":0.02,
+  "tolerance_mm":[14.90,15.10],
+  "allowance_mm":0.03,
+  "parts":[{"id":"center","span_px":152.4},{"id":"upper-edge","span_px":152.8},
+           {"id":"wide","span_px":154},{"id":"outside-fit","span_px":203}]
+}

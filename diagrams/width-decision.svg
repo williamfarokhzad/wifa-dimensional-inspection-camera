@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" rx="20" fill="#f0f8f6"/>
+  <g font-family="sans-serif" fill="#183744">
+    <text x="42" y="58" font-size="37" font-weight="bold">Where does the whole interval land?</text>
+    <text x="42" y="96" font-size="25">Specification: 14.90 to 15.10 mm. Allowance: ±0.03 mm.</text>
+    <rect x="255" y="129" width="300" height="258" fill="#d3ebe2"/>
+    <path d="M255 129V407M555 129V407" stroke="#11675e" stroke-dasharray="9 7" stroke-width="3"/>
+    <path d="M180 408H795" stroke="#183744" stroke-width="3"/>
+    <g font-size="24">
+      <text x="42" y="198" fill="#11675e" font-weight="bold">Accept</text>
+      <text x="42" y="284" fill="#81370b" font-weight="bold">Review</text>
+      <text x="42" y="370" fill="#8b2434" font-weight="bold">Reject</text>
+      <text x="255" y="447" text-anchor="middle">14.90</text><text x="405" y="447" text-anchor="middle">15.00</text>
+      <text x="555" y="447" text-anchor="middle">15.10</text><text x="705" y="447" text-anchor="middle">15.20</text>
+      <text x="393" y="488">Width (mm)</text>
+    </g>
+    <g stroke-width="6" fill="none">
+      <path d="M420 190H510M420 178V202M510 178V202" stroke="#11675e"/>
+      <path d="M480 276H570M480 264V288M570 264V288" stroke="#81370b"/>
+      <path d="M660 362H750M660 350V374M750 350V374" stroke="#8b2434"/>
+    </g>
+    <circle cx="465" cy="190" r="7" fill="#11675e"/><circle cx="525" cy="276" r="7" fill="#81370b"/>
+    <circle cx="705" cy="362" r="7" fill="#8b2434"/>
+  </g>
+</svg>

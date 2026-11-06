@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" rx="20" fill="#f0f8f6"/>
+  <g font-family="sans-serif" fill="#183744">
+    <text x="42" y="58" font-size="37" font-weight="bold">Two fit points. One separate check.</text>
+    <text x="42" y="96" font-size="25">Fit the line with two known widths. Test it with a third.</text>
+    <path d="M150 125V409H820" fill="none" stroke="#183744" stroke-width="3"/>
+    <path d="M150 367H805M150 273H805M150 179H805M222 125V409M477 125V409M732 125V409" stroke="#c4d8d7" stroke-width="2"/>
+    <path d="M222 367L732 179" stroke="#11675e" stroke-width="7" fill="none"/>
+    <circle cx="222" cy="367" r="11" fill="#11675e"/>
+    <circle cx="732" cy="179" r="11" fill="#11675e"/>
+    <path d="M477 257L493 273L477 289L461 273Z" fill="#97400b" stroke="#fff" stroke-width="3"/>
+    <g font-size="24">
+      <text x="99" y="375">10</text><text x="99" y="281">15</text><text x="99" y="187">20</text>
+      <text x="201" y="449">102</text><text x="456" y="449">152</text><text x="711" y="449">202</text>
+      <text x="361" y="487">Edge span (pixels)</text>
+      <text x="-267" y="58" text-anchor="middle" transform="rotate(-90)">Reference width (mm)</text>
+    </g>
+    <text x="515" y="303" font-size="23" font-weight="bold" fill="#81370b">Independent check</text>
+    <text x="515" y="332" font-size="21">152.1 px, known 15.00 mm</text>
+    <text x="515" y="359" font-size="21">Marker rounded to axis scale</text>
+  </g>
+</svg>
